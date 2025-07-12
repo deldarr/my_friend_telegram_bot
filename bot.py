@@ -4,10 +4,12 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 
 # Define a function to handle the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    print(update.message.text)
     await update.message.reply_text("سلام چطوری عقب مونده؟")
 
 # Define a function to handle text messages and echo them back
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    print(update.message.text)
     await update.message.reply_text('چی میگی اسکل؟ زبونت رو نمیفهمم چاقال. فکر کنم سازنده عزیزم منو هنوز تکمیل نکرده تا نوکری شما عقب مونده ها رو کنم....')
 
 def main():
