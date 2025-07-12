@@ -8,7 +8,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Define a function to handle text messages and echo them back
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text('چی میگی اسکل؟ زبونت رو نمیهمم چاقال. فکر کنم سازنده عزیزم منو هنوز تکمیل نکرده....')
+    await update.message.reply_text('چی میگی اسکل؟ زبونت رو نمیفهمم چاقال. فکر کنم سازنده عزیزم منو هنوز تکمیل نکرده تا نوکری شما عقب مونده ها رو کنم....')
 
 def main():
     application = ApplicationBuilder().token("7824445846:AAE4ef4Yrwz3Au-MunpCbk_4bfNYyTyXs2E").build()
