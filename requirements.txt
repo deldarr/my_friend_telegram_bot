@@ -1,0 +1,16 @@
+anyio==4.9.0
+asarPy==1.0.1
+asgiref==3.9.0
+certifi==2025.7.9
+Cython==3.1.1
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.10
+Markdown==3.5.2
+MarkupSafe==3.0.2
+meson==1.5.2
+packaging==25.0
+PyGObject==3.50.1
+python-telegram-bot==22.2
+setuptools==80.9.0
